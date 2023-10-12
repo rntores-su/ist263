@@ -1,0 +1,13 @@
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.5em;}
+
+
+body {background-color: #E9B824; color: #000000;}
+a {color:#4286f4}
+h1, h2, h3 {color:#219C90;}
+nav {background-color:#EE9322;}
+nav a:hover{background-color:#ffffff;}
+nav a {color:#D83F31;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px}
