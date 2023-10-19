@@ -1,4 +1,3 @@
-
 h1 {font-size: 2.5em;}
 h2 {font-size: 1.5em;}
 
@@ -18,4 +17,4 @@ nav {margin-bottom: 30px}
 .sec1, .sec2, .sec3, .sec4 {margin: 5px}
 .sec0 {flex: 1; order: 1; background-color: #e592aa; border-radius: 1em}
 .sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
-.sec4 {align-content: center;}
+.sec4 {margin-left: 100px}
