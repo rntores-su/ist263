@@ -14,8 +14,13 @@ nav {margin-bottom: 30px}
 .motto {float: right; margin-top: 0px;}
 
 .sec0, .sec5 {display: flex; padding: 20px;}
-.sec1, .sec2, .sec3, .sec4 {margin: 15px}
+.sec1, .sec2, .sec3, .sec4 {margin: 30px}
+.sec1 {margin-right: 400px}
 .sec0 {flex: 1; order: 1; background-color: #e592aa; border-radius: 1em}
 .sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
-.sec4 {margin-right: 100px}
+.sec3 {margin-right: 200px;}
 .sec2 {padding: 10px}
+.sec4 {flex: 2}
+
+.sec0, .sec5 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 150;}
+
