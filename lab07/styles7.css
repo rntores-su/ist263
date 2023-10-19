@@ -15,6 +15,6 @@ nav {margin-bottom: 30px}
 .motto {float: right; margin-top: 0px;}
 
 .sec0, .sec5 {display: flex; padding: 20px;}
-.sec1, .sec2, .sec3, .sec4 {margin: 10px}
+.sec1, .sec2, .sec3, .sec4 {margin: 5px}
 .sec0 {flex: 1; order: 1; background-color: #e592aa; border-radius: 1em}
-.sec5 {flex: 1; order: 2; background-color: #e592aa; border-radius: 1em}
+.sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
