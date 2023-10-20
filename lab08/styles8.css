@@ -22,7 +22,7 @@ nav {margin-bottom: 30px}
 .sec2 {padding: 10px}
 .sec4 {flex: 2}
 
-.bio {margin-right: 50px;}
+.bio {margin-right: 50px;margin-left:50px; padding:50%}
 
 .sec0, .sec5 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 150; font-kerning: normal;}
 
