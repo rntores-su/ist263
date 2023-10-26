@@ -29,3 +29,7 @@ nav {margin-bottom: 30px}
 .banner{margin: 30px}
 
 .heading {text-align: center;}
+
+.icon {height: 10%; width: 10%;}
+
+.skillicons {display: flex}
