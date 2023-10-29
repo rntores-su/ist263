@@ -39,3 +39,9 @@ nav {margin-bottom: 30px}
 .aside {display: flex; flex-basis: 25%}
 
 .skillicons {padding: 5%; margin: 5px}
+
+p {flex-wrap: wrap;}
+
+.challenge {display: flex;}
+.desc {flex-basis: 75%}
+.spacers {flex-basis: 25%}
