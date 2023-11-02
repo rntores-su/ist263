@@ -30,7 +30,7 @@ nav {margin-bottom: 30px}
 
 .heading {text-align: center;}
 
-.icon {height: 76%; width: 76%;}
+.icon {width: 76%;}
 
 .skillicons {display: flex; flex-basis: 75%; justify-content: space-around;}
 .sidebar {background-color: #e592aa; border-radius: 1em; padding: 5%}
