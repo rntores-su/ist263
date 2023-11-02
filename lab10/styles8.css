@@ -58,8 +58,8 @@ p {flex-wrap: wrap;}
     nav a {display: block; width: 100%; margin-bottom: 10px;}
     span {display: none}
     .sec5 {flex-wrap: wrap;}
-    .sec0 {margin: 0}
-    .sec5 {margin: 0}
+    .sec0 {margin-left: 0; margin-right:0}
+    .sec5 {margin-left: 0; margin-right:0}
 } 
 
 
