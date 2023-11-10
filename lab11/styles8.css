@@ -1,0 +1,68 @@
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.5em;}
+
+
+body {background-color: #f4d579; color: #000000;}
+a {color:#4286f4}
+h1, h2, h3 {color:#219C90;}
+nav {background-color:#f187e1;}
+nav a:hover{background-color:#ffffff;}
+nav a {color:#D83F31;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px}
+
+.motto {float: right; margin-top: 0px;}
+
+.sec0, .sec5 {display: flex; padding: 20px;}
+.sec1, .sec2, .sec3, .sec4 {margin: 30px}
+.sec1 {margin-right: 400px}
+.sec0 {flex: 1; order: 1; background-color: #e592aa; border-radius: 1em}
+.sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
+.sec3 {margin-right: 200px;}
+.sec2 {padding: 10px}
+.sec4 {flex: 2;}
+.sec5 {margin-top: 30px}
+
+.body {margin-right: 30px;margin-left:30px;}
+
+.sec6 {display: flex}
+
+.sec0, .sec5 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 150; font-kerning: normal;}
+
+.sec5 {flex-wrap: wrap;}
+
+.banner{
+    margin: 30px;
+    max-width: 100%;
+}
+.heading {text-align: center;}
+
+.icon {width: 76%;}
+
+.skillicons {display: flex; flex-basis: 75%; justify-content: space-around;}
+.sidebar {background-color: #e592aa; border-radius: 1em; padding: 5%}
+
+.flex2 {display: flex}
+.aside {display: flex; flex-basis: 25%}
+
+.skillicons {padding: 5%; margin: 5px}
+
+p {flex-wrap: wrap;}
+
+.challenge {display: flex;}
+.desc {flex-basis: 75%}
+.spacers {flex-basis: 25%}
+
+
+@media only screen and (max-width: 800px){
+    nav a {display: block; width: 100%; margin-bottom: 10px;}
+    span {display: none}
+    .sec5 {flex-wrap: wrap;}
+    .sec0 {margin-left: 0; margin-right:0}
+    .sec5 {margin-left: 0; margin-right:0}
+} 
+
+
+
+
+
