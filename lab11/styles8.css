@@ -62,7 +62,18 @@ p {flex-wrap: wrap;}
     .sec5 {margin-left: 0; margin-right:0}
 } 
 
-
+.skip{
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; /* positions an element relative to the top left corner of the viewport */
+    top: 10px;
+    left: -999px; /* push off the left side */
+}
+.skip:focus {
+    left: 10px;
+}
 
 
 
