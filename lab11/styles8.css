@@ -5,8 +5,8 @@ h2 {font-size: 1.5em;}
 body {background-color: #f4d579; color: #000000;}
 a {color:#4286f4}
 h1, h2, h3 {color:#c52929;}
-nav {background-color:#f187e1;}
-nav a:hover{background-color:#ffffff;}
+nav {background-color:#f5ddf1;}
+nav a:hover{background-color:#c117e7;}
 nav a {color:hsl(156, 60%, 25%);} /* changed for contrast */
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
@@ -16,7 +16,7 @@ nav {margin-bottom: 30px}
 .sec0, .sec5 {display: flex; padding: 20px;}
 .sec1, .sec2, .sec3, .sec4 {margin: 30px}
 .sec1 {margin-right: 400px}
-.sec0 {flex: 1; order: 1; background-color: #e592aa; border-radius: 1em}
+.sec0 {flex: 1; order: 1; background-color: #eaae2c; border-radius: 1em}
 .sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
 .sec3 {margin-right: 200px;}
 .sec2 {padding: 10px}
