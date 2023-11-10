@@ -6,7 +6,7 @@ body {background-color: #f4d579; color: #000000;}
 a {color:#4286f4}
 h1, h2, h3 {color:#c52929;}
 nav {background-color:#f5ddf1;}
-nav a:hover{background-color:#c117e7;}
+nav a:hover{background-color:#f0f0f0;}
 nav a {color:hsl(156, 60%, 25%);} /* changed for contrast */
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
