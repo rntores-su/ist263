@@ -4,7 +4,7 @@ h2 {font-size: 1.5em}
 
 body {background-color: #f4d579; color: #000000;}
 a {color:#1f68dd}
-h1, h2, h3 {color:#d35c5c;}
+h1, h2, h3 {color:#000000;}
 nav {background-color:#f5ddf1;}
 nav a:hover{background-color:#f0f0f0;}
 nav a {color:hsl(156, 60%, 25%);} /* changed for contrast */
