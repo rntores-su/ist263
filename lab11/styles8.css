@@ -42,7 +42,7 @@ nav {margin-bottom: 30px}
 .icon {width: 76%;}
 
 .skillicons {display: flex; flex-basis: 75%; justify-content: space-around;}
-.sidebar {background-color: #c9e1cc; border-radius: 1em; padding: 5%}
+.sidebar {background-color: #e2e2e2; border-radius: 1em; padding: 5%}
 
 .flex2 {display: flex}
 .aside {display: flex; flex-basis: 25%}
