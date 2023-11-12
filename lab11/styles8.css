@@ -37,7 +37,8 @@ nav {margin-bottom: 30px}
     margin: 30px;
     max-width: 100%;
 }
-.heading {text-align: center;}
+.heading {text-align: center; color:#000000}
+.title {color: #000000}
 
 .icon {width: 76%;}
 
