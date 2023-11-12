@@ -16,7 +16,7 @@ nav {margin-bottom: 30px}
 .sec0, .sec5 {display: flex; padding: 20px;}
 .sec1, .sec2, .sec3, .sec4 {margin: 30px}
 .sec1 {margin-right: 400px}
-.sec0 {flex: 1; order: 1; background-color: #276d33; border-radius: 1em}
+.sec0 {flex: 1; order: 1; background-color: #828282; border-radius: 1em}
 .sec5 {flex: 1; order: 2; background-color: #a196e4; border-radius: 1em}
 .sec3 {margin-right: 200px;}
 .sec2 {padding: 10px}
