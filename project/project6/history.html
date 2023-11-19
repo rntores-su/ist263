@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="projStyle.css">
+    <style>
+    @font-face { font-family: Survivant; src: url('../survivant.ttf'); } 
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th a {
+        text-decoration: underline;
+    }
+    th a:hover {
+        background-color: #ffcc00;
+        cursor: pointer;
+    }
+    .back-to-history {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 10px 0;
+        font-size: 16px;
+        text-decoration: none;
+        background-color: #f4f4f4;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    th:first-child, td:first-child {
+        background: linear-gradient(to bottom, #ffcc66, #ff9966);
+        color: #333;
+    }
+    /* Unique colors for each season column, ensuring accessibility */
+    th:nth-child(2), td:nth-child(2) { background-color: #add8e6; }
+    th:nth-child(3), td:nth-child(3) { background-color: #90ee90; }
+    th:nth-child(4), td:nth-child(4) { background-color: #ffb6c1; }
+    th:nth-child(5), td:nth-child(5) { background-color: #87cefa; }
+    th:nth-child(6), td:nth-child(6) { background-color: #dda0dd; }
+    th:nth-child(7), td:nth-child(7) { background-color: #ffdead; }
+
+    .host-circle {
+    border: 2px solid #005BBB; /* Adjust the border color as needed */
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px; /* Spacing between circles */
+}
+.host-circle img {
+    border: 2px solid #005BBB; /* CBS Survivor Blue */
+    border-radius: 50%;
+    width: 150px; /* You can adjust the size */
+    height: auto; /* Maintain aspect ratio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensures the content fits within the circle */
+    background-color: white; /* Change if you have a specific background */
+    margin: auto; /* Centering the circle */
+}
+.hosts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .hosts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .host-circle {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+}
+    </style>
+
+
+</head>
+<body>
+    <nav class="history-nav">
+        <a href="index.html">Home <span></span></a>
+        <a href="history.html">History <span></span></a>
+        <a href="news.html">News </a>
+    </nav>
+    
+    <main class="history-section">
+    <h1 class="history-title">HISTORY BOOK</h1>
+    <p>Welcome to the history log! Click on a season's logo to learn more about that season's details, or check below for statistics that span multiple seasons.</p>
+    <div class="circle-container">
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVmHXUHGTc0rKWQtMCFO2SLk&feature=shared" target="_blank"><img src="../media/s1logo.png" alt="S1 Logo"></a></div>
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVlIscYlSoTl1fI_bcFAYPui&feature=shared" target="_blank"><img src="../media/s2logo.png" alt="S2 Logo"></a></div>
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVli91wq2e4D3hRc67ceWoUr&feature=shared" target="_blank"><img src="../media/s3logo.png" alt="S3 Logo"></a></div>
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVmF3V46RiSVIiNzC3mW0Siu&feature=shared" target="_blank"><img src="../media/s4logo.png" alt="S4 Logo"></a></div>
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVlFhjRDxfU2BxeVfGiMdcDN&feature=shared" target="_blank"><img src="../media/s5logo.png" alt="S5 Logo"></a></div>
+        <div class="circle"><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVnlimLds7uLldIi0fFrwy6V&feature=shared" target="_blank"><img src="../media/s6logo.png" alt="S6 Logo"></a></div>
+    </div>
+    <p>Seasons 7-10 coming soon. Check our social media for release updates!</p>
+
+        
+<table>
+    <thead>
+      <tr>
+        <th>Placements</th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVmHXUHGTc0rKWQtMCFO2SLk&feature=shared">1: Fans vs. Firsts</a></th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVlIscYlSoTl1fI_bcFAYPui&feature=shared">2: Snakes and Secrets</a></th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVli91wq2e4D3hRc67ceWoUr&feature=shared">3: Mind, Body, Soul</a></th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVmF3V46RiSVIiNzC3mW0Siu&feature=shared">4: Heroes vs. Villains</a></th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVlFhjRDxfU2BxeVfGiMdcDN&feature=shared">5: A New Era</a></th>
+        <th><a href="https://youtube.com/playlist?list=PLcMEs9-bvdVnlimLds7uLldIi0fFrwy6V&feature=shared">6: Double Trouble</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1st</td>
+        <td>Ava Travella</td>
+        <td>Austin Murphy</td>
+        <td>Lydia Engel</td>
+        <td>Camryn Chawgo</td>
+        <td>Mel Albanese</td>
+        <td>Zach Paskal</td>
+      </tr>
+      <tr>
+        <td>2nd</td>
+        <td>Jake Neibhur</td>
+        <td>Addie Christopher</td>
+        <td>Zach Crowe</td>
+        <td>Abby Callahan</td>
+        <td>Casey Nardino</td>
+        <td>Cata Baumgart</td>
+      </tr>
+      <tr>
+        <td>3rd</td>
+        <td>Shawn Depaz</td>
+        <td>Derek Rosen</td>
+        <td>Madison Brown</td>
+        <td>Gabby Zingarini</td>
+        <td>Lily Datz</td>
+        <td>Valentina Zuleta</td>
+      </tr>
+      <tr>
+        <td>4th</td>
+        <td>Logan Smith</td>
+        <td>Mike Rizzuto</td>
+        <td>Sabrina Mauro</td>
+        <td>Jake Neibhur</td>
+        <td>Ben Dross</td>
+        <td>Phalen Salvador</td>
+      </tr>
+      <tr>
+        <td>5th</td>
+        <td>Valentina Velasquez</td>
+        <td>Summer Cerbone</td>
+        <td>Kevin Wu</td>
+        <td>Jack Lovalvo</td>
+        <td>Andrew Patashink</td>
+        <td>Ben Piers</td>
+      </tr>
+      <tr>
+        <td>6th</td>
+        <td>Julia Kelly</td>
+        <td>Geneva Guadalupe</td>
+        <td>Holly Westbrook</td>
+        <td>Mitch Vargas</td>
+        <td>Parker Kulis</td>
+        <td>Johnny Sapienza</td>
+      </tr>
+      <tr>
+        <td>7th</td>
+        <td>Pauly Levine</td>
+        <td>Erica LeGaard</td>
+        <td>Linzy Dineen</td>
+        <td>Katherine Smith</td>
+        <td>Eli Lesser</td>
+        <td>Graham Bean</td>
+      </tr>
+      <tr>
+        <td>8th</td>
+        <td>Ryan Baker</td>
+        <td>Shawn Depaz</td>
+        <td>Cassidy Toomey</td>
+        <td>Hannah Dolan</td>
+        <td>Savannah Stocker</td>
+        <td>Jake Fienberg</td>
+      </tr>
+      <tr>
+        <td>9th</td>
+        <td>Colin Blais</td>
+        <td>Abby Callahan</td>
+        <td>Joe Colon</td>
+        <td>Owen Hananel</td>
+        <td>Marcelo Nylund</td>
+        <td>Preston Klaus</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Luca Serio</td>
+        <td>Andrew Clarke</td>
+        <td>Owen Hananel</td>
+        <td>Austin Murphy</td>
+        <td>Julia Desanto</td>
+        <td>Andrew Le</td>
+      </tr>
+      <tr>
+        <td>11th</td>
+        <td>Brian Aitken</td>
+        <td>Jack Lovalvo</td>
+        <td>Ryan Baker</td>
+        <td>Derek Rosen</td>
+        <td>Emma Fawcett</td>
+        <td>Skylar Swart</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>Katherine Smith</td>
+        <td>Mitch Vargas</td>
+        <td>Karl Moeglein</td>
+        <td>Eli Schuchert</td>
+        <td>Jason Connolly</td>
+        <td>Amit Chandrouly</td>
+      </tr>
+      <tr>
+        <td>13th</td>
+        <td>Karley Warden</td>
+        <td>Eli Schuchert</td>
+        <td>Mike Rizzuto</td>
+        <td>Cassidy Toomey</td>
+        <td>Maddie Doolittle</td>
+        <td>Annie Gorham</td>
+      </tr>
+      <tr>
+        <td>14th</td>
+        <td>Curtis McAuliffe</td>
+        <td>Meg Fizpatrick</td>
+        <td>Jason Ding</td>
+        <td>Holly Westbrook</td>
+        <td>Philip Galati</td>
+        <td>Emma Caplan</td>
+      </tr>
+      <tr>
+        <td>15th</td>
+        <td>Molly Lepeska</td>
+        <td>Hannah Dolan</td>
+        <td>Adam Sperling</td>
+        <td>Karl Moeglein</td>
+        <td>Mario Caparelli</td>
+        <td>Caroline Noone</td>
+      </tr>
+      <tr>
+        <td>16th</td>
+        <td>Molly Gibbs</td>
+        <td>Daisy Leepson</td>
+        <td>Molly Lepeska</td>
+        <td>Madison Brown</td>
+        <td>Briana Perez</td>
+        <td>Anika Medrano</td>
+      </tr>
+      <tr>
+        <td>17th</td>
+        <td>Camryn Chawgo</td>
+        <td>Nahnsan Guseh</td>
+        <td>Jamiah Wong</td>
+        <td>Jason Ding</td>
+        <td>Emily Bronzi</td>
+        <td>Syndi Tougas</td>
+      </tr>
+      <tr>
+        <td>18th</td>
+        <td></td>
+        <td>Noah Schroeder</td>
+        <td>Becca Hofing</td>
+        <td>Pauly Levine</td>
+        <td>Will Hauben</td>
+        <td>Noah Estling</td>
+      </tr>
+      <tr>
+        <td>19th</td>
+        <td></td>
+        <td>Aaron Patashnik</td>
+        <td>Colin Mcgann</td>
+        <td>Kevin Wu</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>20th</td>
+        <td></td>
+        <td></td>
+        <td>Gabby Zingarini</td>
+        <td>Lydia Engel</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>21st</td>
+        <td></td>
+        <td></td>
+        <td>Jen Glass</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+<h2>Hosts</h2>
+<div class="hosts-container">
+    <!-- Repeat this block for each of the five circles -->
+    <div class="host-circle">
+        <a href="https://www.instagram.com/lukeuriarte/" target="_blank">
+            <img src="../media/Luke.jpg" alt="Luke Uriarte, first host of Syrvivor">
+        </a>
+
+    </div>
+<div class="host-circle">
+    <a href="https://www.instagram.com/andrewclarke_13/" target="_blank">
+        <img src="../media/Andrew.jpg" alt="Andrew Clarke, second host of Syrvivor">
+    </a>
+</div>
+
+<div class="host-circle">
+    <a href="https://www.instagram.com/westbrook.holly/" target="_blank">
+        <img src="../media/Holly.jpeg" alt="Holly Westbrook, host of Season 7">
+    </a>
+
+</div>
+
+<div class="host-circle">
+    <a href="https://www.instagram.com/brodypontarelli/" target="_blank">
+        <img src="../media/Brody.jpg" alt="Brody Pontarelli, current Host">
+    </a>
+
+</div>
+
+</div>
+
+</body>
+</html>

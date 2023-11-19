@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light background for readability */
+}
+
+h1 {font-family: Survivant}
+
+a {
+    color: #0645AD; /* Syracuse University Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #D44500; /* Syracuse Orange */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #005BBB; /* CBS Survivor Blue */
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Accessibility Improvements */
+:focus {
+    outline: 3px solid #005BBB; /* Focus outline for keyboard navigation */
+}
+
+/* Additional styling based on specific needs can be added here */
+/* Ensure that the wireframe styles do not conflict with other styles */
+.history-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.history-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the navigation at the top of the page */
+.history-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.history-nav button {
+    background-color: #D44500; /* Syracuse Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.history-nav button:hover {
+    background-color: #f57d31;
+}
+
+/* Flex container for the circles */
+.circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Styling for the circles that will contain the logos */
+.circle {
+    border: 2px solid #005BBB; /* CBS Survivor Blue */
+    border-radius: 50%;
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensures the content fits within the circle */
+    background-color: white; /* Change if you have a specific background */
+    margin: auto; /* Centering the circle */
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+/* Bottom navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bottom-nav div {
+    text-align: center;
+}
+
+.bottom-nav a {
+    display: block;
+    color: #0645AD; /* Syracuse University Blue */
+    margin-bottom: 5px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .circle-container {
+        justify-content: center;
+    }
+
+    .history-nav, .bottom-nav {
+        flex-direction: column;
+    }
+
+    .history-nav button, .bottom-nav a {
+        margin-bottom: 10px;
+    }
+}
+
+/* Accessibility */
+.circle:focus-within {
+    outline: 3px solid #f57d31; /* Focus color for accessibility */
+}
