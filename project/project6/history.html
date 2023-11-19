@@ -45,7 +45,6 @@
         background: linear-gradient(to bottom, #ffcc66, #ff9966);
         color: #333;
     }
-    /* Unique colors for each season column, ensuring accessibility */
     th:nth-child(2), td:nth-child(2) { background-color: #add8e6; }
     th:nth-child(3), td:nth-child(3) { background-color: #90ee90; }
     th:nth-child(4), td:nth-child(4) { background-color: #ffb6c1; }
@@ -54,27 +53,27 @@
     th:nth-child(7), td:nth-child(7) { background-color: #ffdead; }
 
     .host-circle {
-    border: 2px solid #005BBB; /* Adjust the border color as needed */
+    border: 2px solid #005BBB; 
     border-radius: 50%;
-    width: 150px; /* Adjust the size as needed */
+    width: 150px; 
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin: 15px; /* Spacing between circles */
+    margin: 15px; 
 }
 .host-circle img {
-    border: 2px solid #005BBB; /* CBS Survivor Blue */
+    border: 2px solid #005BBB; 
     border-radius: 50%;
-    width: 150px; /* You can adjust the size */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; 
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Ensures the content fits within the circle */
-    background-color: white; /* Change if you have a specific background */
-    margin: auto; /* Centering the circle */
+    overflow: hidden; 
+    background-color: white; 
+    margin: auto; 
 }
 .hosts-container {
     display: flex;
@@ -82,7 +81,7 @@
     justify-content: space-around;
     gap: 20px;
 }
-/* Responsive adjustments for smaller screens */
+
 @media screen and (max-width: 600px) {
     .hosts-container {
         flex-direction: column;
