@@ -23,7 +23,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navigation Styling */
 nav {
     background-color: #D44500; 
     text-align: center;
@@ -72,12 +71,11 @@ iframe {
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    margin: auto;
+    margin: auto
 }
 
 .history-title {
     font-size: 5em;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -85,6 +83,8 @@ iframe {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .history-nav button {
@@ -257,6 +257,12 @@ iframe {
 .hostname {
 text-align: center;
 font-family: Survivant;
+font-size: 1.2em;
+}
+.sznhost {
+    text-align: center;
+    font-family: Survivant;
+    font-size: .9em;
 }
 
 .maintext {
@@ -270,6 +276,46 @@ font-family: Survivant;
     text-align: center;
     font-size: 3em;
 }
+
+
+                .site-footer {
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    padding: 20px 0;
+                    margin-top: 30px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+
+                .footer-content {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: top;
+                    flex-wrap: wrap;
+                }
+
+                .footer-section {
+                    margin: 10px;
+                }
+
+                .footer-section h4 {
+                    margin-bottom: 10px;
+                }
+
+                .footer-section p, .footer-section a {
+                    color: #ccc;
+                    text-decoration: none;
+                }
+
+                .footer-section a:hover {
+                    color: white;
+                }
+
+                .footer-bottom {
+                    margin-top: 20px;
+                    border-top: 1px solid #444;
+                    padding-top: 10px;
+                }
 
 
 /*
