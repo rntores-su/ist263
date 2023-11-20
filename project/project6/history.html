@@ -5,101 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History</title>
     <link rel="stylesheet" href="projStyle.css">
-    <style>
-    @font-face { font-family: Survivant; src: url('../survivant.ttf'); } 
-    body {
-        font-family: Arial, sans-serif;
-        padding: 20px;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: center;
-    }
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-    }
-    th a {
-        text-decoration: underline;
-    }
-    th a:hover {
-        background-color: #ffcc00;
-        cursor: pointer;
-    }
-    .back-to-history {
-        display: inline-block;
-        padding: 10px 15px;
-        margin: 10px 0;
-        font-size: 16px;
-        text-decoration: none;
-        background-color: #f4f4f4;
-        color: #333;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        text-align: center;
-        cursor: pointer;
-    }
-    th:first-child, td:first-child {
-        background: linear-gradient(to bottom, #ffcc66, #ff9966);
-        color: #333;
-    }
-    th:nth-child(2), td:nth-child(2) { background-color: #add8e6; }
-    th:nth-child(3), td:nth-child(3) { background-color: #90ee90; }
-    th:nth-child(4), td:nth-child(4) { background-color: #ffb6c1; }
-    th:nth-child(5), td:nth-child(5) { background-color: #87cefa; }
-    th:nth-child(6), td:nth-child(6) { background-color: #dda0dd; }
-    th:nth-child(7), td:nth-child(7) { background-color: #ffdead; }
-
-    .host-circle {
-    border: 2px solid #005BBB; 
-    border-radius: 50%;
-    width: 150px; 
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin: 15px; 
-}
-.host-circle img {
-    border: 2px solid #005BBB; 
-    border-radius: 50%;
-    width: 150px; 
-    height: auto; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden; 
-    background-color: white; 
-    margin: auto; 
-}
-.hosts-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .hosts-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .host-circle {
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 768px) {
-    table {
-        width: 100%;
-        overflow-x: auto;
-        display: block;
-    }
-}
-    </style>
-
-
 </head>
 <body>
     <nav class="history-nav">
@@ -329,31 +234,42 @@
 
 <h2>Hosts</h2>
 <div class="hosts-container">
-    <!-- Repeat this block for each of the five circles -->
+  <div>
     <div class="host-circle">
         <a href="https://www.instagram.com/lukeuriarte/" target="_blank">
             <img src="../media/Luke.jpg" alt="Luke Uriarte, first host of Syrvivor">
         </a>
-
+      </div>
+      <div><p class="hostname">Luke Uriarte</p></div>
     </div>
+
+    <div>
 <div class="host-circle">
     <a href="https://www.instagram.com/andrewclarke_13/" target="_blank">
         <img src="../media/Andrew.jpg" alt="Andrew Clarke, second host of Syrvivor">
     </a>
+  </div>
+  <div><p class="hostname">Andrew Clarke</p></div>
 </div>
 
+<div>
 <div class="host-circle">
     <a href="https://www.instagram.com/westbrook.holly/" target="_blank">
         <img src="../media/Holly.jpeg" alt="Holly Westbrook, host of Season 7">
     </a>
 
 </div>
+<div><p class="hostname">Holly Westbrook</p></div>
+</div>
 
+<div>
 <div class="host-circle">
     <a href="https://www.instagram.com/brodypontarelli/" target="_blank">
         <img src="../media/Brody.jpg" alt="Brody Pontarelli, current Host">
     </a>
 
+</div>
+<div><p class="hostname">Brody Pontarelli</p></div>
 </div>
 
 </div>

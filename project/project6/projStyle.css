@@ -8,13 +8,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4; /* Light background for readability */
+    background-color: #f4f4f4; 
 }
 
 h1 {font-family: Survivant}
 
 a {
-    color: #0645AD; /* Syracuse University Blue */
+    color: #0645AD; 
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 
 /* Navigation Styling */
 nav {
-    background-color: #D44500; /* Syracuse Orange */
+    background-color: #D44500; 
     text-align: center;
     padding: 10px 0;
 }
@@ -35,7 +35,6 @@ nav a {
     font-size: 16px;
 }
 
-/* Mobile responsiveness */
 @media screen and (max-width: 600px) {
     nav a {
         display: block;
@@ -43,7 +42,6 @@ nav a {
     }
 }
 
-/* Main content styling */
 main {
     padding: 20px;
     background-color: white;
@@ -62,13 +60,12 @@ iframe {
     height: auto;
 }
 
-/* Accessibility Improvements */
+
 :focus {
-    outline: 3px solid #005BBB; /* Focus outline for keyboard navigation */
+    outline: 3px solid #005BBB; 
 }
 
-/* Additional styling based on specific needs can be added here */
-/* Ensure that the wireframe styles do not conflict with other styles */
+
 .history-section {
     display: flex;
     flex-direction: column;
@@ -83,7 +80,6 @@ iframe {
     margin-bottom: 20px;
 }
 
-/* Styling for the navigation at the top of the page */
 .history-nav {
     display: flex;
     justify-content: space-between;
@@ -91,7 +87,7 @@ iframe {
 }
 
 .history-nav button {
-    background-color: #D44500; /* Syracuse Orange */
+    background-color: #D44500; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -103,7 +99,7 @@ iframe {
     background-color: #f57d31;
 }
 
-/* Flex container for the circles */
+
 .circle-container {
     display: flex;
     flex-wrap: wrap;
@@ -111,25 +107,25 @@ iframe {
     gap: 20px;
 }
 
-/* Styling for the circles that will contain the logos */
+
 .circle {
-    border: 2px solid #005BBB; /* CBS Survivor Blue */
+    border: 2px solid #005BBB; 
     border-radius: 50%;
     width: 140px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Ensures the content fits within the circle */
-    background-color: white; /* Change if you have a specific background */
-    margin: auto; /* Centering the circle */
+    overflow: hidden; 
+    background-color: white; 
+    margin: auto; 
 }
 
 .circle img {
     width: 100%;
     height: auto;
 }
-/* Bottom navigation */
+
 .bottom-nav {
     display: flex;
     justify-content: space-between;
@@ -142,11 +138,10 @@ iframe {
 
 .bottom-nav a {
     display: block;
-    color: #0645AD; /* Syracuse University Blue */
+    color: #0645AD; 
     margin-bottom: 5px;
 }
 
-/* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     .circle-container {
         justify-content: center;
@@ -161,7 +156,103 @@ iframe {
     }
 }
 
-/* Accessibility */
 .circle:focus-within {
-    outline: 3px solid #f57d31; /* Focus color for accessibility */
+    outline: 3px solid #f57d31; 
+}
+/* */
+@font-face { font-family: Survivant; src: url('../survivant.ttf'); } 
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th a {
+        text-decoration: underline;
+    }
+    th a:hover {
+        background-color: #ffcc00;
+        cursor: pointer;
+    }
+    .back-to-history {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 10px 0;
+        font-size: 16px;
+        text-decoration: none;
+        background-color: #f4f4f4;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    th:first-child, td:first-child {
+        background: linear-gradient(to bottom, #ffcc66, #ff9966);
+        color: #333;
+    }
+    th:nth-child(2), td:nth-child(2) { background-color: #add8e6; }
+    th:nth-child(3), td:nth-child(3) { background-color: #90ee90; }
+    th:nth-child(4), td:nth-child(4) { background-color: #ffb6c1; }
+    th:nth-child(5), td:nth-child(5) { background-color: #87cefa; }
+    th:nth-child(6), td:nth-child(6) { background-color: #dda0dd; }
+    th:nth-child(7), td:nth-child(7) { background-color: #ffdead; }
+
+    .host-circle {
+    border: 2px solid #005BBB; 
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px; 
+}
+.host-circle img {
+    border: 2px solid #005BBB; 
+    border-radius: 50%;
+    width: 150px; 
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    background-color: white; 
+    margin: auto; 
+}
+.hosts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .hosts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .host-circle {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+.hostname {
+text-align: center;
+font-family: Survivant;
 }
