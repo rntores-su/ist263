@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        #container {
+            width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin-left: -100px;
+            margin-top: -100px;
+            display: none;
+        }
+        #subscribe {
+            background-color: #e9967a;
+            padding: 5px;
+            width: 250px;
+            text-align: center;
+        }
+        #close-button {
+            text-align: right;
+        }
+    </style>
+    <script>
+        function openModal () {
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closeModal () {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <div id="container"><img src="http://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of cupcakes">
+    <h1>Desserts</h1>
+    <p>Oat cake topping chocolate bar pastry biscuit chocolate bar muffin. Chocolate oat cake macaroon candy canes liquorice sugar plum sweet toffee. Dragée macaroon shortbread carrot cake caramels danish cupcake tart. Wafer pudding jelly apple pie dragée soufflé. Biscuit shortbread fruitcake gingerbread brownie jelly beans pudding chocolate cake. Gummi bears sweet roll shortbread cheesecake shortbread lemon drops. Powder bear claw bonbon caramels biscuit croissant sweet. Brownie candy canes tart oat cake sweet. Pastry marshmallow shortbread lollipop candy canes chupa chups danish.</p>
+    <p>Candy canes caramels wafer gingerbread halvah toffee candy canes. Gummi bears shortbread powder chocolate cake halvah. Macaroon candy powder liquorice tiramisu toffee sweet. Soufflé chocolate bar marshmallow pudding ice cream. Jelly beans bear claw icing lemon drops cotton candy icing. Pastry soufflé biscuit jelly biscuit chocolate cake fruitcake. Liquorice tiramisu donut tiramisu sugar plum sweet.</p>
+    <p>Lemon drops apple pie cake lollipop ice cream. Pastry tootsie roll oat cake icing bear claw chupa chups. Carrot cake cake tootsie roll halvah caramels cake chocolate bar icing jelly. Lollipop ice cream cupcake candy oat cake. Gummies gummi bears sugar plum carrot cake dessert sugar plum. Gingerbread icing sugar plum chocolate candy liquorice. Topping dragée macaroon liquorice powder cake sesame snaps. Jelly beans cake chocolate cake pie muffin pastry gummi bears.</p>
+    <p id="subscribe" onclick="openModal();">Subscribe to Our Mailing List</p>
+    </div>
+    <div id="modal">
+        <p id="close-button" onclick="close-closeModal();">X</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+        <input type="submit" value="Subscribe">
+    </form>
+    </div>
+</body>
+</html>

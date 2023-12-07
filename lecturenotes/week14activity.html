@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <style>
+        a {
+            font-family: 'Beau Rivage', cursive;
+            text-decoration: underline;}
+        #modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin-left: -100px;
+            margin-top: -100px;
+            display: none;
+        }
+        #subscribe {
+            background-color: #e9967a;
+            padding: 5px;
+            width: 250px;
+            text-align: center;
+        }
+        #close-button {
+            text-align: right;
+        }
+    </style>
+    <script>
+        function openModal () {
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closeModal () {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <a id="subscribe" onclick="openModal();">Subscribe to Our Newsletter</a>
+    </div>
+    <div id="modal">
+        <p id="close-button" onclick="close-closeModal();">X</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+        <input type="submit" value="Subscribe">
+    </form>
+    </div>
+</body>
+</html>
