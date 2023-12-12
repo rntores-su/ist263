@@ -162,7 +162,7 @@ iframe {
     outline: 3px solid #f57d31; 
 }
 /* */
-@font-face { font-family: Survivant; src: url('../survivant.ttf'); } 
+@font-face { font-family: Survivant; src: url('../fonts/survivant.ttf'); } 
     body {
         font-family: Arial, sans-serif;
         padding: 20px;
@@ -267,8 +267,8 @@ font-size: 1.2em;
 
 .maintext {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
 }
 
 
@@ -338,6 +338,41 @@ font-size: 1.2em;
 */
 
 
-.torch1 {float: left;}
-.torch2 {float: right;}
+.torch1 {float: left; width: 50px}
+.torch2 {float: right; width: 50px}
 .giantpic {width: 50%;}
+
+
+@media only screen and (max-width: 800px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {
+        /* Behave like a "row" */
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        content: attr(data-title);
+    }
+}
