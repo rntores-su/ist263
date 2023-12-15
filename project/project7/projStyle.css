@@ -385,6 +385,12 @@ font-size: 1.2em;
 
 .lpt {margin-right: 30px}
 .rpt {margin-left: 30px}
+.lpt, .rpt, .mpt {flex: 1}
 
 .form1 {display: block;}
 
+#brody, #ryan, #jordan, #annie, #odie {display: none; width: 30%; float: left;}
+#damon {width: 30%; float: left;}
+#damonthumb, #brodythumb, #ryanthumb, #jordanthumb, #anniethumb, #odiethumb {width: 10%; text-align: center; justify-content: space-around;}
+#thumbnails {clear: both; text-align: center;}
+#bigimages {padding: 25%; margin-right: 50px}
