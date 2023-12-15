@@ -292,7 +292,11 @@ font-size: 1.2em;
 .secheader {
     text-align: center;
     font-size: 3em;
+    margin-top: 10px; 
+    margin-bottom: 10px;
 }
+
+footer {clear: both;}
 
 .site-footer {
     background-color: #333;
@@ -392,19 +396,15 @@ font-size: 1.2em;
 .lpt, .rpt, .mpt {flex: 1}
 
 .form1 {display: block; padding: 50px; margin-top: 20px;}
+.formname {font-size: 20px;}
 
 #brody, #ryan, #jordan, #annie, #odie {display: none; width: 450px;}
 #damon {width: 450px;} 
 #thumbnails {display: flex; clear: both; flex-wrap:wrap; flex: 1; justify-content: space-between; width: 200px;}
 
-#ebintro {margin-left: 50px; display: flex; flex: 2;}
+#ebintro {display: flex; flex: 2;}
 #slideshow-container {display: flex; flex-wrap: wrap;}
-#bigimages {flex: 2;}
-
-
-#ebintro {margin-left: 50px; display: flex; flex: 2;}
-#slideshow-container {display: flex; flex-wrap: wrap;}
-#bigimages {flex: 2;}
+#bigimages {flex: 1.2;}
 
 .button {
     background-color: #04AA6D;
@@ -427,3 +427,4 @@ font-size: 1.2em;
 .descript {margin-top: 10px;}
 
 .recepteps, .newapps, .recep, .recrecap, .newbapp, .vetapp {display: flex; flex-wrap: flex;}
+
