@@ -22,21 +22,31 @@
                 }
                 function DamonOn () {
                     document.getElementById('damon').style.display = 'block';
+                    document.getElementById('damon').style.width = '450px';
                 }
                 function AnnieOn () {
                     document.getElementById('annie').style.display = 'block';
+                    document.getElementById('annie').style.width = '450px';
                 }
                 function RyanOn () {
                     document.getElementById('ryan').style.display = 'block';
+                    document.getElementById('ryan').style.width = '450px';
+
                 }
                 function OdieOn () {
                     document.getElementById('odie').style.display = 'block';
+                    document.getElementById('odie').style.width = '450px';
+
                 }        
                 function JordanOn () {
                     document.getElementById('jordan').style.display = 'block';
+                    document.getElementById('jordan').style.width = '450px';
+
                 }        
                 function BrodyOn () {
                     document.getElementById('brody').style.display = 'block';
+                    document.getElementById('brody').style.width = '450px';
+
                 }
             </script>
 </head>
@@ -51,13 +61,13 @@
         <a href="news.html">News </a>
         <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
     </nav>
-    <img class="giantpic" src="../media/syrback.png" alt="Original Logo">
 
     <main>
     <h2 class="secheader"><img class="torch2" src="../media/torch.png" alt="torch">
         18 STUDENTS, 75 DAYS, 1 SYRVIVOR
         <img class="torch2" src="../media/torch.png" alt="torch">
     </h2>
+    <img class="giantpic" src="../media/syrback.png" alt="Original Logo">
     <p>
     Syrvivor Syracuse is a recreational organization that focuses on challenging students to test themselves socially, mentally and physically in a semester-long competition based on the CBS reality show Survivor. The mission of this organization is to uniquely provide students with a competition that will put their skills to the test, while at the same time developing new relationships and building a strong community of Syracuse Students. Syrvivor Syracuse intends to accomplish such 
     attributes through setting up competition based trials where 
@@ -81,6 +91,7 @@
             <p>Episodes are released on the Syrvivor Syracuse YouTube channel, as well as Orange Television Network. Episodes contain the entirety of what went down, from the challenge to the vote-off to self-filmed vlogs where contestants spill all. Each episode covers at least one elimination, and sometimes more! Check out the live post-show for commentary from Production and potential appearances from the eliminated contestant.</p>
         </div>
     </div>
+
     <h2 class="secheader">
         MEET THE EXECUTIVE BOARD
     </h2>
@@ -94,22 +105,40 @@
             <img src="../media/EBoard/EBJordan.jpeg" alt="Jordan Avinoam - Casting Director" id="jordan">
         </div>
         <div id="ebintro">
-            <div class="eboardarea">The 2023-2024 E-Board!</div>
-            <p class="eboardinfo">Our Executive Board serves as the leaders of the organization, working in their specalized roles to make each season amazing.</p>
+            <div class="eboardinfo">
+                <div class="eboardarea"> <strong>The 2023-2024 E-Board!</strong></div>
+                <div>Our Executive Board serves as the leaders of the organization, working in their specalized roles to make each season amazing.</div>
+                    <div><strong>Executive Producer - Production:</strong></div>
+                    <div>The EP-Prod oversees the entire show, from the set setup to the timeline of all production.</div>
+                    <div><strong>Executive Producer - Post-Production:</strong></div>
+                    <div>The EP-Post sees all things when it comes to editing, release on YouTube and OTN, and social media.</div>
+                    <div><strong>Production Manager:</strong></div>
+                    <div>The PM makes the twists, themes, and rules of every season.</div>
+                    <div><strong>Host:</strong></div>
+                    <div>The host is the liaison between the crew and the cast and the audience, directing the show and running every event.</div>
+                    <div><strong>Social Media Manager:</strong></div>
+                    <div>The SMM runs our Instagram, YouTube, and all other online platforms to find us on.</div>
+                    <div><strong>Casting Director:</strong></div>
+                    <div>The CD interviews and decides the cast for every season, choosing who does and doesn't make the final cut.</div>
+            </div>    
         </div>
         <div id="thumbnails">
-            <img onclick="PicsOff(); DamonOn();" src="../media/EBoard/EBDamon.jpeg" alt="damon" id="damonthumb">
-            <img onclick="PicsOff(); AnnieOn();" src="../media/EBoard/EBAnnie.jpeg" alt="annie" id="anniethumb">
-            <img onclick="PicsOff(); RyanOn();" src="../media/EBoard/EBRyan.jpeg" alt="ryan" id="ryanthumb">
-            <img onclick="PicsOff(); BrodyOn();" src="../media/EBoard/EBBrody.jpeg" alt="brody" id="brodythumb">
-            <img onclick="PicsOff(); OdieOn();" src="../media/EBoard/EBOdie.jpeg" alt="odie" id="odiethumb">
-            <img onclick="PicsOff(); JordanOn();" src="../media/EBoard/EBJordan.jpeg" alt="jordan" id="jordanthumb">
+            <div>
+            <div><button onclick="PicsOff(); DamonOn();" class="button button1">Executive Producer: Production</button></div>
+            <div><button onclick="PicsOff(); AnnieOn();" class="button button1">Executive Producer: Post-Production</button></div>
+            <div><button onclick="PicsOff(); RyanOn();" class="button button1">Production Manager</button></div>
+            <div><button onclick="PicsOff(); BrodyOn();" class="button button1">Host</button></div>
+            <div><button onclick="PicsOff(); OdieOn();" class="button button1">Social Media Manager</button></div>
+            <div><button onclick="PicsOff(); JordanOn();" class="button button1">Casting Director</button></div>
+        </div>
         </div>  
     </div>
+
     </main>
     <h2 class="secheader">
         GET INVOLVED
     </h2>
+    <img class="fresh" src="../media/groupphoto.jpg" alt="A photo of the Season 7 Fresh team">
     <div class="involvedform">
         <div><form class="form1" action="https://formspree.io/f/mvojybvd" method="post">
             <label for="fullname">Name:</label>
@@ -128,7 +157,7 @@
             <input type="submit" value="send form">
         </form></div>
 
-        <footer class="site-footer">
+        <footer id=indexfooter class="site-footer index">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Contact Information</h3>

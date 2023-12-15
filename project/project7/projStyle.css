@@ -343,8 +343,10 @@ font-size: 1.2em;
 
 .torch1 {width: 25px}
 .torch2 {width: 25px}
-.giantpic {width: 50%;}
-
+.giantpic {width: 800px;   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 
 @media only screen and (max-width: 800px) {
     table, thead, tbody, th, td, tr {
@@ -386,9 +388,28 @@ font-size: 1.2em;
 
 .form1 {display: block;}
 
-#brody, #ryan, #jordan, #annie, #odie {display: none; width: 250px; float: left;}
-#damon {width: 300px; float: left;} 
-#damonthumb, #brodythumb, #ryanthumb, #jordanthumb, #anniethumb, #odiethumb {width: 10%; text-align: center; justify-content: space-around;}
-#thumbnails {display: flex; clear: both; text-align: center;}
+#brody, #ryan, #jordan, #annie, #odie {display: none; width: 450px;}
+#damon {width: 450px;} 
+#thumbnails {display: flex; clear: both; flex-wrap:wrap; flex: 1; justify-content: space-between; width: 200px;}
 
-#ebintro {margin-left: 50px;}
+#ebintro {margin-left: 50px; display: flex; flex: 2;}
+#slideshow-container {display: flex; flex-wrap: wrap;
+#bigimages {flex: 2;}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 200px;
+    border-radius: 2em;
+    cursor: grab;
+  }
+  
+  .fresh {float: right; width: 500px;}
+
+#indexfooter {clear: both;}
