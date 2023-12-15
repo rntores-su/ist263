@@ -360,7 +360,6 @@ font-size: 1.2em;
     tr { border: 1px solid #ccc; }
 
     td {
-        /* Behave like a "row" */
         border: none;
         position: relative;
         padding-left: 50%;
@@ -368,9 +367,7 @@ font-size: 1.2em;
     }
 
     td:before {
-        /* Now like a table header */
         position: absolute;
-        /* Top/left values mimic padding */
         top: 6px;
         left: 6px;
         width: 45%;
@@ -393,3 +390,5 @@ font-size: 1.2em;
 #damon {width: 300px; float: left;} 
 #damonthumb, #brodythumb, #ryanthumb, #jordanthumb, #anniethumb, #odiethumb {width: 10%; text-align: center; justify-content: space-around;}
 #thumbnails {display: flex; clear: both; text-align: center;}
+
+#ebintro {margin-left: 50px;}
