@@ -388,6 +388,10 @@ footer {clear: both;}
         white-space: nowrap;
         content: attr(data-title);
     }
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 
 } 
 
@@ -429,13 +433,23 @@ footer {clear: both;}
 
 .descript {margin-top: 10px;}
 
-.recepteps, .newapps, .recep, .recrecap, .newbapp, .vetapp {display: flex; flex-wrap: flex;}
+.recepteps, .newapps, .recep, .recrecap, .newbapp, .vetapp, .newapps {display: flex; flex-wrap: flex;}
 .recep, .recrecap {justify-content: space-between;}
 .episode, .recapshow {width: 800px; height: 400px;}
 
 .mediaflex {display: flex; flex-wrap: wrap; justify-content: space-around;}
 
-.googform {width: 650px; height: 1000px;}
+.googform {width: 650px; height: 700px;}
+.googform2 {width: 550px; height: 500px;}
 
-.crewjoin {display: flex; flex-wrap: wrap;}
-.instagram-media {width: 500px; height: 300px;}
+
+.crewjoin {display: flex; flex-wrap: wrap; justify-content: space-around;}
+.instagram-media {width: 500px; height: 510px;}
+
+span {font-weight: bold;}
+
+.smallere {flex: 1; margin-left: 10px; margin-right: 10px;}
+.biggere {flex: 2.5;}
+
+.bioyes {font-size: 1.5em}
+.crewpic {width: 500px;}
