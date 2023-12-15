@@ -125,7 +125,7 @@ iframe {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .circle-container {
         justify-content: center;
     }
@@ -188,6 +188,9 @@ iframe {
         padding-right: 10px;
         white-space: nowrap;
         content: attr(data-title);
+    }
+    main {
+        margin: 5px;
     }
 
 }
@@ -303,7 +306,6 @@ footer {clear: both;}
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
     margin-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -386,6 +388,7 @@ footer {clear: both;}
         white-space: nowrap;
         content: attr(data-title);
     }
+
 } 
 
 .prodtypes {display: flex; justify-content: space-between;}
@@ -427,4 +430,6 @@ footer {clear: both;}
 .descript {margin-top: 10px;}
 
 .recepteps, .newapps, .recep, .recrecap, .newbapp, .vetapp {display: flex; flex-wrap: flex;}
+.recep, .recrecap {justify-content: space-between;}
+.episode, .recapshow {width: 500px;}
 
