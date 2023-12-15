@@ -34,14 +34,6 @@ nav a {
     font-size: 16px;
 }
 
-@media screen and (max-width: 800px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-    .prodtypes {
-        flex-wrap: wrap;}
-}
 
 /* main {
     background-color: white;
@@ -146,7 +138,7 @@ iframe {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .circle-container {
         justify-content: center;
     }
@@ -158,6 +150,29 @@ iframe {
     .history-nav button, .bottom-nav a {
         margin-bottom: 10px;
     }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .prodtypes {
+        flex-wrap: wrap;}
+
+    #thumbnails {
+        flex-wrap: wrap;}
+
+    .hosts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .host-circle {
+        margin-bottom: 20px;
+    }
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
 }
 
 .circle:focus-within {
@@ -240,22 +255,7 @@ margin: 15px;
     /*gap: 10px; */
 }
 
-@media screen and (max-width: 600px) {
-    .hosts-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .host-circle {
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 768px) {
-    table {
-        width: 100%;
-        overflow-x: auto;
-        display: block;
-    }
-}
+
 
 .hostname {
 text-align: center;
@@ -389,8 +389,7 @@ font-size: 1.2em;
 
 .form1 {display: block;}
 
-#brody, #ryan, #jordan, #annie, #odie {display: none; width: 30%; float: left;}
-#damon {width: 30%; float: left;}
+#brody, #ryan, #jordan, #annie, #odie {display: none; width: 10px; float: left;}
+#damon {width: 300px; float: left;} 
 #damonthumb, #brodythumb, #ryanthumb, #jordanthumb, #anniethumb, #odiethumb {width: 10%; text-align: center; justify-content: space-around;}
-#thumbnails {clear: both; text-align: center;}
-#bigimages {padding: 25%; margin-right: 50px}
+#thumbnails {display: flex; clear: both; text-align: center;}
