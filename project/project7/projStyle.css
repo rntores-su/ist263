@@ -354,8 +354,7 @@ footer {clear: both;}
 .torch2 {width: 25px}
 .giantpic {width: 800px;   display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 50%;}
+    margin-right: auto;}
 
 @media only screen and (max-width: 800px) {
     table, thead, tbody, th, td, tr {
