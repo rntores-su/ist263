@@ -435,6 +435,7 @@ footer {clear: both;}
 
 .mediaflex {display: flex; flex-wrap: wrap; justify-content: space-around;}
 
-.googform {width: 700px; height: 600px;}
+.googform {width: 650px; height: 1000px;}
 
 .crewjoin {display: flex; flex-wrap: wrap;}
+.instagram-media {width: 500px; height: 300px;}
