@@ -431,5 +431,10 @@ footer {clear: both;}
 
 .recepteps, .newapps, .recep, .recrecap, .newbapp, .vetapp {display: flex; flex-wrap: flex;}
 .recep, .recrecap {justify-content: space-between;}
-.episode, .recapshow {width: 500px;}
+.episode, .recapshow {width: 800px; height: 400px;}
 
+.mediaflex {display: flex; flex-wrap: wrap; justify-content: space-around;}
+
+.googform {width: 700px; height: 600px;}
+
+.crewjoin {display: flex; flex-wrap: wrap;}
