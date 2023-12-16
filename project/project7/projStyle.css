@@ -199,7 +199,7 @@ iframe {
         width: 600px;
     }
     .giantpic {
-        width: 600px;
+        display: none;
     }
 
 }
@@ -402,6 +402,7 @@ footer {clear: both;}
         margin-right: 1em;
     }
     .googform {width: 700px;}
+    .giantpic {display: none;}
 
 } 
 
