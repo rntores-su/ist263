@@ -407,27 +407,31 @@ footer {clear: both;}
 
 #brody, #ryan, #jordan, #annie, #odie {display: none; width: 450px;}
 #damon {width: 450px;} 
-#thumbnails {display: flex; clear: both; flex-wrap:wrap; flex: 1; justify-content: space-between; width: 200px; margin-left: 50px;}
+#thumbnails {display: flex; clear: both; flex-wrap:wrap; flex: .7; justify-content: space-between; width: 200px; margin-left: 50px;}
 
 /* #ebintro {display: flex; flex: 2;} */
 #slideshow-container {display: flex; flex-wrap: wrap; justify-content: space-around;}
-#bigimages {flex: 1.2;}
+#bigimages {flex: 1.3;}
 
-.button {
-    background-color: #04AA6D;
+  .button {
+    background-color: #05b861;
     border: none;
     color: black;
     padding: 20px;
     text-align: center;
+    font-family: Survivant;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
-    width: 200px;
+    width: 400px;
     border-radius: 2em;
     cursor: grab;
   }
   
 .fresh {float: right; width: 500px; padding: 50px; margin-left: 20px}
+
+.ebbio {display: inline}
+.newdiv {display: flex; flex-wrap: wrap;}
 
 #indexfooter {clear: both;} 
 
@@ -455,3 +459,8 @@ span {font-weight: bold;}
 .crewpic {width: 500px;}
 
 .fixy {display: flex;}
+
+#eboardinfo {width: 2px;}
+
+.submit {font-size: 1.5em;}
+
