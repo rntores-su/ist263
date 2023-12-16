@@ -193,13 +193,16 @@ iframe {
         margin: 5px;
     }
     .crewwanted {
-        margin: 50px;
+        margin: 100px;
     }
     .crewpic {
-        width: 600px;
+        width: 300px;
     }
     .giantpic {
         display: none;
+    }
+    #bigimages {
+        width: .8em;
     }
 
 }
