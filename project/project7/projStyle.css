@@ -229,19 +229,6 @@ iframe {
         background-color: #ffcc00;
         cursor: pointer;
     }
-    /* .back-to-history {
-        display: inline-block;
-        padding: 10px 15px;
-        margin: 10px 0;
-        font-size: 16px;
-        text-decoration: none;
-        background-color: #f4f4f4;
-        color: #333;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        text-align: center;
-        cursor: pointer;
-    } */
 
     th:first-child, td:first-child {
         background: linear-gradient(to bottom, #ffcc66, #ff9966);
@@ -403,7 +390,6 @@ footer {clear: both;}
     }
     .googform {width: 700px;}
     .giantpic {display: none;}
-
 } 
 
 .prodtypes {display: flex; justify-content: space-between;}
